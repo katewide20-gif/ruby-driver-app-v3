@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "firebase": "10.7.0",
+    "@react-navigation/native": "*",
+    "@react-navigation/native-stack": "*",
+    "react-native-screens": "*",
+    "react-native-safe-area-context": "*"
+  }
+}
