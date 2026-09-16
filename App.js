@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { onAuthStateChanged } from "firebase/auth";
-import { auth } from "./firebaseConfig";
 import { View, ActivityIndicator } from "react-native";
 
 import LoginScreen from "./screens/LoginScreen";
@@ -10,6 +9,7 @@ import HomeScreen from "./screens/HomeScreen";
 import BookDriverScreen from "./screens/BookDriverScreen";
 import MyBookingsScreen from "./screens/MyBookingsScreen";
 import ChatScreen from "./screens/ChatScreen";
+import { auth } from "./firebaseConfig";
 
 const Stack = createNativeStackNavigator();
 
